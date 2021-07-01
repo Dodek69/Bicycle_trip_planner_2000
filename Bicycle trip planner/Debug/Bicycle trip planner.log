@@ -1,0 +1,5 @@
+﻿  annual_report.cpp
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\annual_report.cpp(10,48): warning C4267: "inicjowanie": konwersja z "size_t" do "unsigned short", możliwa utrata danych
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\annual_report.cpp(10,76): warning C4267: "inicjowanie": konwersja z "size_t" do "unsigned short", możliwa utrata danych
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\annual_report.cpp(56,37): warning C4267: "inicjowanie": konwersja z "size_t" do "short", możliwa utrata danych
+  Bicycle trip planner.vcxproj -> C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Debug\Bicycle trip planner.exe
