@@ -1,0 +1,106 @@
+\hypertarget{class_wilderness}{}\doxysection{Wilderness Class Reference}
+\label{class_wilderness}\index{Wilderness@{Wilderness}}
+
+
+Klasa reprezentujaca odludzie.  
+
+
+
+
+{\ttfamily \#include $<$Wilderness.\+h$>$}
+
+Inheritance diagram for Wilderness\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_wilderness}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_wilderness_af075c7385cf535ae5617f7ff8978041d}{Wilderness}} (const std\+::string \&\mbox{\hyperlink{class_place_a4424a4d56d07a9ab0afea62420c85ea1}{name}}, const short int \&\mbox{\hyperlink{class_place_a58e443ebe034cc2fa596e2f22d8b77e8}{amsl}}, const std\+::pair$<$ std\+::string, bool $>$ \&\mbox{\hyperlink{class_place_ab78da06946d231ec54caf69c9817a241}{handbook}}, const unsigned int \&\mbox{\hyperlink{class_wilderness_a9056dba4e01dd0470cf836fdac4ea349}{distance\+\_\+to\+\_\+public\+\_\+transport}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual short int \mbox{\hyperlink{class_wilderness_ab4b2ce7e5cdea8defe9c36640449fa5e}{calculate\+\_\+difficulty}} ()
+\item 
+virtual void \mbox{\hyperlink{class_wilderness_a365aa7a9bc46a3e58c67f26fcef68522}{show}} () const
+\begin{DoxyCompactList}\small\item\em Wirtualna metoda wyswietlajaca opis miejsca (atrybuty obiektu) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+short int \mbox{\hyperlink{class_wilderness_a9056dba4e01dd0470cf836fdac4ea349}{distance\+\_\+to\+\_\+public\+\_\+transport}}
+\begin{DoxyCompactList}\small\item\em odleglosc od srodka publicznego transportu \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentujaca odludzie. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_wilderness_af075c7385cf535ae5617f7ff8978041d}\label{class_wilderness_af075c7385cf535ae5617f7ff8978041d}} 
+\index{Wilderness@{Wilderness}!Wilderness@{Wilderness}}
+\index{Wilderness@{Wilderness}!Wilderness@{Wilderness}}
+\doxysubsubsection{\texorpdfstring{Wilderness()}{Wilderness()}}
+{\footnotesize\ttfamily Wilderness\+::\+Wilderness (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{const short int \&}]{amsl,  }\item[{const std\+::pair$<$ std\+::string, bool $>$ \&}]{handbook,  }\item[{const unsigned int \&}]{distance\+\_\+to\+\_\+public\+\_\+transport }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Kostruktor klasy \mbox{\hyperlink{class_wilderness}{Wilderness}} 
+\begin{DoxyParams}{Parameters}
+{\em name} & nazwa gor \\
+\hline
+{\em amsl} & wysokosc n.\+p.\+m. \\
+\hline
+{\em handbook} & para opisujaca przewodnik \\
+\hline
+{\em distance\+\_\+to\+\_\+public\+\_\+transport} & odleglosc od srodka publicznego transportu \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_wilderness_ab4b2ce7e5cdea8defe9c36640449fa5e}\label{class_wilderness_ab4b2ce7e5cdea8defe9c36640449fa5e}} 
+\index{Wilderness@{Wilderness}!calculate\_difficulty@{calculate\_difficulty}}
+\index{calculate\_difficulty@{calculate\_difficulty}!Wilderness@{Wilderness}}
+\doxysubsubsection{\texorpdfstring{calculate\_difficulty()}{calculate\_difficulty()}}
+{\footnotesize\ttfamily virtual short int Wilderness\+::calculate\+\_\+difficulty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+Wirtualna metoda obliczajaca, inicjujaca i zwracajaca trudnosc miejsca, na podstawie wysokosci n.\+p.\+m. i odleglosci od srodka publicznego transportu \begin{DoxyReturn}{Returns}
+trudnosc miejsca 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_place_a91e0aae0ba2543ac8b59e3fbdf840b6c}{Place}}.
+
+\mbox{\Hypertarget{class_wilderness_a365aa7a9bc46a3e58c67f26fcef68522}\label{class_wilderness_a365aa7a9bc46a3e58c67f26fcef68522}} 
+\index{Wilderness@{Wilderness}!show@{show}}
+\index{show@{show}!Wilderness@{Wilderness}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily virtual void Wilderness\+::show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Wirtualna metoda wyswietlajaca opis miejsca (atrybuty obiektu) 
+
+
+
+Implements \mbox{\hyperlink{class_place_a4c10a883f4d30da80428e4fbedf0eda8}{Place}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_wilderness_a9056dba4e01dd0470cf836fdac4ea349}\label{class_wilderness_a9056dba4e01dd0470cf836fdac4ea349}} 
+\index{Wilderness@{Wilderness}!distance\_to\_public\_transport@{distance\_to\_public\_transport}}
+\index{distance\_to\_public\_transport@{distance\_to\_public\_transport}!Wilderness@{Wilderness}}
+\doxysubsubsection{\texorpdfstring{distance\_to\_public\_transport}{distance\_to\_public\_transport}}
+{\footnotesize\ttfamily short int Wilderness\+::distance\+\_\+to\+\_\+public\+\_\+transport\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+odleglosc od srodka publicznego transportu 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_wilderness_8h}{Wilderness.\+h}}\end{DoxyCompactItemize}

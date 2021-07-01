@@ -1,0 +1,140 @@
+\hypertarget{class_tour}{}\doxysection{Tour Class Reference}
+\label{class_tour}\index{Tour@{Tour}}
+
+
+Klasa reprezentujaca wycieczke.  
+
+
+
+
+{\ttfamily \#include $<$Tour.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_tour_a3cb6950f8fbdb0ba55409cc9e99bbbcb}{Tour}} (const std\+::string \&\mbox{\hyperlink{class_tour_a9a4ebd90126a11cade9b0b570e63630c}{date}}, const short int \&\mbox{\hyperlink{class_tour_af1a2e522e20762a60541b986108b65a9}{average\+\_\+difficulty}}, const short int \&\mbox{\hyperlink{class_tour_ab1fadef25cefc095c66eb41650a18c55}{greatest\+\_\+difficulty}})
+\item 
+\mbox{\hyperlink{class_tour_ac725c389f1333dd8f3cea99f3c49a749}{Tour}} (const short int \&\mbox{\hyperlink{class_tour_af1a2e522e20762a60541b986108b65a9}{average\+\_\+difficulty}}, const short int \&\mbox{\hyperlink{class_tour_ab1fadef25cefc095c66eb41650a18c55}{greatest\+\_\+difficulty}})
+\item 
+void \mbox{\hyperlink{class_tour_a61ef7c9cc9a58a9b037c11d855cbbef8}{show}} ()
+\begin{DoxyCompactList}\small\item\em Funkcja wyswietlajaca informacje o wycieczce. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+short int \mbox{\hyperlink{class_tour_af1a2e522e20762a60541b986108b65a9}{average\+\_\+difficulty}}
+\begin{DoxyCompactList}\small\item\em srednia trudnosc \end{DoxyCompactList}\item 
+short int \mbox{\hyperlink{class_tour_ab1fadef25cefc095c66eb41650a18c55}{greatest\+\_\+difficulty}}
+\begin{DoxyCompactList}\small\item\em najwieksza trudnosc \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_tour_a9a4ebd90126a11cade9b0b570e63630c}{date}}
+\begin{DoxyCompactList}\small\item\em data \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+std\+::ostream \& \mbox{\hyperlink{class_tour_a1a6b6614d74a34d7c78358e9f654928e}{operator$<$$<$}} (std\+::ostream \&os, const \mbox{\hyperlink{class_tour}{Tour}} \&tour)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentujaca wycieczke. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_tour_a3cb6950f8fbdb0ba55409cc9e99bbbcb}\label{class_tour_a3cb6950f8fbdb0ba55409cc9e99bbbcb}} 
+\index{Tour@{Tour}!Tour@{Tour}}
+\index{Tour@{Tour}!Tour@{Tour}}
+\doxysubsubsection{\texorpdfstring{Tour()}{Tour()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Tour\+::\+Tour (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{date,  }\item[{const short int \&}]{average\+\_\+difficulty,  }\item[{const short int \&}]{greatest\+\_\+difficulty }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Kostruktor klasy \mbox{\hyperlink{class_tour}{Tour}} 
+\begin{DoxyParams}{Parameters}
+{\em date} & data \\
+\hline
+{\em amsl} & wysokosc n.\+p.\+m. \\
+\hline
+{\em average\+\_\+difficulty} & srednia trudnosc \\
+\hline
+{\em greatest\+\_\+difficulty} & najwyzsza trudnosc \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_tour_ac725c389f1333dd8f3cea99f3c49a749}\label{class_tour_ac725c389f1333dd8f3cea99f3c49a749}} 
+\index{Tour@{Tour}!Tour@{Tour}}
+\index{Tour@{Tour}!Tour@{Tour}}
+\doxysubsubsection{\texorpdfstring{Tour()}{Tour()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Tour\+::\+Tour (\begin{DoxyParamCaption}\item[{const short int \&}]{average\+\_\+difficulty,  }\item[{const short int \&}]{greatest\+\_\+difficulty }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Kostruktor klasy \mbox{\hyperlink{class_tour}{Tour}}, inicializujacy pole Date dzisiejsza datom 
+\begin{DoxyParams}{Parameters}
+{\em average\+\_\+difficulty} & srednia trudnosc \\
+\hline
+{\em greatest\+\_\+difficulty} & najwyzsza trudnosc \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_tour_a61ef7c9cc9a58a9b037c11d855cbbef8}\label{class_tour_a61ef7c9cc9a58a9b037c11d855cbbef8}} 
+\index{Tour@{Tour}!show@{show}}
+\index{show@{show}!Tour@{Tour}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily void Tour\+::show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Funkcja wyswietlajaca informacje o wycieczce. 
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_tour_a1a6b6614d74a34d7c78358e9f654928e}\label{class_tour_a1a6b6614d74a34d7c78358e9f654928e}} 
+\index{Tour@{Tour}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Tour@{Tour}}
+\doxysubsubsection{\texorpdfstring{operator$<$$<$}{operator<<}}
+{\footnotesize\ttfamily std\+::ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{std\+::ostream \&}]{os,  }\item[{const \mbox{\hyperlink{class_tour}{Tour}} \&}]{tour }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+Przeciazenie operatora $<$$<$ klasy \mbox{\hyperlink{class_tour}{Tour}} 
+\begin{DoxyParams}{Parameters}
+{\em os} & sturmien wyjsciowy \\
+\hline
+{\em tour} & wycieczka \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+sturmien wyjsciowy 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_tour_af1a2e522e20762a60541b986108b65a9}\label{class_tour_af1a2e522e20762a60541b986108b65a9}} 
+\index{Tour@{Tour}!average\_difficulty@{average\_difficulty}}
+\index{average\_difficulty@{average\_difficulty}!Tour@{Tour}}
+\doxysubsubsection{\texorpdfstring{average\_difficulty}{average\_difficulty}}
+{\footnotesize\ttfamily short int Tour\+::average\+\_\+difficulty\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+srednia trudnosc 
+
+\mbox{\Hypertarget{class_tour_a9a4ebd90126a11cade9b0b570e63630c}\label{class_tour_a9a4ebd90126a11cade9b0b570e63630c}} 
+\index{Tour@{Tour}!date@{date}}
+\index{date@{date}!Tour@{Tour}}
+\doxysubsubsection{\texorpdfstring{date}{date}}
+{\footnotesize\ttfamily std\+::string Tour\+::date\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+data 
+
+\mbox{\Hypertarget{class_tour_ab1fadef25cefc095c66eb41650a18c55}\label{class_tour_ab1fadef25cefc095c66eb41650a18c55}} 
+\index{Tour@{Tour}!greatest\_difficulty@{greatest\_difficulty}}
+\index{greatest\_difficulty@{greatest\_difficulty}!Tour@{Tour}}
+\doxysubsubsection{\texorpdfstring{greatest\_difficulty}{greatest\_difficulty}}
+{\footnotesize\ttfamily short int Tour\+::greatest\+\_\+difficulty\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+najwieksza trudnosc 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_tour_8h}{Tour.\+h}}\end{DoxyCompactItemize}

@@ -1,0 +1,47 @@
+\hypertarget{input__numeric_8h}{}\doxysection{input\+\_\+numeric.\+h File Reference}
+\label{input__numeric_8h}\index{input\_numeric.h@{input\_numeric.h}}
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{input__numeric_8h_ad6520f54da2456797ad206c283ad2523}{is\+\_\+number}} (const std\+::string \&text)
+\item 
+short int \mbox{\hyperlink{input__numeric_8h_ab19dfb51fcb2f8d5029d62c4058fe85c}{input\+\_\+numeric}} (const std\+::string \&msg, const short int \&min, const short int \&max)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{input__numeric_8h_ab19dfb51fcb2f8d5029d62c4058fe85c}\label{input__numeric_8h_ab19dfb51fcb2f8d5029d62c4058fe85c}} 
+\index{input\_numeric.h@{input\_numeric.h}!input\_numeric@{input\_numeric}}
+\index{input\_numeric@{input\_numeric}!input\_numeric.h@{input\_numeric.h}}
+\doxysubsubsection{\texorpdfstring{input\_numeric()}{input\_numeric()}}
+{\footnotesize\ttfamily short int input\+\_\+numeric (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{msg,  }\item[{const short int \&}]{min,  }\item[{const short int \&}]{max }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Funkcja zwracajaca pobrana od uzytkownika liczbe 
+\begin{DoxyParams}{Parameters}
+{\em msg} & wiadomosc dla uzytkownika \\
+\hline
+{\em min} & wartosc minimalna liczby \\
+\hline
+{\em max} & wartosc maksymalna liczby \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+liczba pobrana od uzytkownika 
+\end{DoxyReturn}
+\mbox{\Hypertarget{input__numeric_8h_ad6520f54da2456797ad206c283ad2523}\label{input__numeric_8h_ad6520f54da2456797ad206c283ad2523}} 
+\index{input\_numeric.h@{input\_numeric.h}!is\_number@{is\_number}}
+\index{is\_number@{is\_number}!input\_numeric.h@{input\_numeric.h}}
+\doxysubsubsection{\texorpdfstring{is\_number()}{is\_number()}}
+{\footnotesize\ttfamily bool is\+\_\+number (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Funkcja sprawdzajaca czy parametr w postaci lancucha znakow jest numerem 
+\begin{DoxyParams}{Parameters}
+{\em text} & lancuch znakow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+wartosc logiczna ~\newline
+ 
+\end{DoxyReturn}

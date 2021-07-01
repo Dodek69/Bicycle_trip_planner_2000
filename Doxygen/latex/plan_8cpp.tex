@@ -1,0 +1,70 @@
+\hypertarget{plan_8cpp}{}\doxysection{plan.\+cpp File Reference}
+\label{plan_8cpp}\index{plan.cpp@{plan.cpp}}
+{\ttfamily \#include \char`\"{}plan.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$conio.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}difficulty\+\_\+computing.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}input\+\_\+numeric.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include \char`\"{}Tour.\+h\char`\"{}}\newline
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{plan_8cpp_ae965bd7cd623f43be631af1881c43897}{plan}} (const std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&places)
+\item 
+void \mbox{\hyperlink{plan_8cpp_afff8fa732662c5afcf17088b5ed9f704}{add\+\_\+place\+\_\+to\+\_\+route}} (const std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&places, std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&route)
+\item 
+void \mbox{\hyperlink{plan_8cpp_a07a5535304b64213dd959b7eee185ee3}{remove\+\_\+place\+\_\+from\+\_\+route}} (const std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&places, std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&route)
+\item 
+void \mbox{\hyperlink{plan_8cpp_afb0ab0826dd8c621c16e0bba44ae98a3}{confirm\+\_\+route}} (const std\+::pair$<$ short int, short int $>$ \&diff)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{plan_8cpp_afff8fa732662c5afcf17088b5ed9f704}\label{plan_8cpp_afff8fa732662c5afcf17088b5ed9f704}} 
+\index{plan.cpp@{plan.cpp}!add\_place\_to\_route@{add\_place\_to\_route}}
+\index{add\_place\_to\_route@{add\_place\_to\_route}!plan.cpp@{plan.cpp}}
+\doxysubsubsection{\texorpdfstring{add\_place\_to\_route()}{add\_place\_to\_route()}}
+{\footnotesize\ttfamily void add\+\_\+place\+\_\+to\+\_\+route (\begin{DoxyParamCaption}\item[{const std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&}]{places,  }\item[{std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&}]{route }\end{DoxyParamCaption})}
+
+Funkcja dodajaca miejsce do trasy 
+\begin{DoxyParams}{Parameters}
+{\em route} & mapa wskaznikow na miejsca na trasie \\
+\hline
+{\em places} & mapa wskaznikow na miejsca \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{plan_8cpp_afb0ab0826dd8c621c16e0bba44ae98a3}\label{plan_8cpp_afb0ab0826dd8c621c16e0bba44ae98a3}} 
+\index{plan.cpp@{plan.cpp}!confirm\_route@{confirm\_route}}
+\index{confirm\_route@{confirm\_route}!plan.cpp@{plan.cpp}}
+\doxysubsubsection{\texorpdfstring{confirm\_route()}{confirm\_route()}}
+{\footnotesize\ttfamily void confirm\+\_\+route (\begin{DoxyParamCaption}\item[{const std\+::pair$<$ short int, short int $>$ \&}]{diff }\end{DoxyParamCaption})}
+
+Funkcja zapisujaca trase w pliku \char`\"{}tours\char`\"{} 
+\begin{DoxyParams}{Parameters}
+{\em diff} & para -\/ srednia oraz maksymalna trudnosc trasy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{plan_8cpp_ae965bd7cd623f43be631af1881c43897}\label{plan_8cpp_ae965bd7cd623f43be631af1881c43897}} 
+\index{plan.cpp@{plan.cpp}!plan@{plan}}
+\index{plan@{plan}!plan.cpp@{plan.cpp}}
+\doxysubsubsection{\texorpdfstring{plan()}{plan()}}
+{\footnotesize\ttfamily void plan (\begin{DoxyParamCaption}\item[{const std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&}]{places }\end{DoxyParamCaption})}
+
+Funkcja, ktora za pomoca interfejsu umozliwia planowanie trasy 
+\begin{DoxyParams}{Parameters}
+{\em places} & mapa wskaznikow do miejsc \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{plan_8cpp_a07a5535304b64213dd959b7eee185ee3}\label{plan_8cpp_a07a5535304b64213dd959b7eee185ee3}} 
+\index{plan.cpp@{plan.cpp}!remove\_place\_from\_route@{remove\_place\_from\_route}}
+\index{remove\_place\_from\_route@{remove\_place\_from\_route}!plan.cpp@{plan.cpp}}
+\doxysubsubsection{\texorpdfstring{remove\_place\_from\_route()}{remove\_place\_from\_route()}}
+{\footnotesize\ttfamily void remove\+\_\+place\+\_\+from\+\_\+route (\begin{DoxyParamCaption}\item[{const std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&}]{places,  }\item[{std\+::map$<$ unsigned short int, \mbox{\hyperlink{class_place}{Place}} $\ast$ $>$ \&}]{route }\end{DoxyParamCaption})}
+
+Funkcja usuwajaca miejsce z trasy 
+\begin{DoxyParams}{Parameters}
+{\em route} & mapa wskaznikow na miejsca na trasie \\
+\hline
+{\em places} & mapa wskaznikow na miejsca \\
+\hline
+\end{DoxyParams}

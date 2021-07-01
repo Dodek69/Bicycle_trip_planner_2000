@@ -3,6 +3,10 @@
 #include <iostream>
 #include <conio.h>
 
+
+/// Funkcja zwracajaca pobierana od uzytkownika wartosc logiczna
+/// @param msg wiadomosc dla uzytkownika
+/// @return wartosc logiczna
 bool input_boolean(const std::string& msg) {
 	std::cout << msg << " (y/n)";
 	while (true) {

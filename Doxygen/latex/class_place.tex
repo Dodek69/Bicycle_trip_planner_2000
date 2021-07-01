@@ -1,0 +1,164 @@
+\hypertarget{class_place}{}\doxysection{Place Class Reference}
+\label{class_place}\index{Place@{Place}}
+
+
+Klasa abstrakcyjna reprezentujaca miejsce.  
+
+
+
+
+{\ttfamily \#include $<$Place.\+h$>$}
+
+Inheritance diagram for Place\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_place}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual short int \mbox{\hyperlink{class_place_a91e0aae0ba2543ac8b59e3fbdf840b6c}{calculate\+\_\+difficulty}} ()=0
+\item 
+virtual void \mbox{\hyperlink{class_place_a4c10a883f4d30da80428e4fbedf0eda8}{show}} () const =0
+\begin{DoxyCompactList}\small\item\em Metoda czysto wirtualna wyswietlajaca atrybuty o obiektu. \end{DoxyCompactList}\item 
+short int \mbox{\hyperlink{class_place_ae929f795bbe4247be7a54ebc7a61ca44}{get\+\_\+difficulty}} () const
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_place_acc462d657c893b5157e57fc5e314efb2}{Place}} (const std\+::string \&\mbox{\hyperlink{class_place_a4424a4d56d07a9ab0afea62420c85ea1}{name}}, const short int \&\mbox{\hyperlink{class_place_a58e443ebe034cc2fa596e2f22d8b77e8}{amsl}}, const std\+::string \&\mbox{\hyperlink{class_place_ab78da06946d231ec54caf69c9817a241}{handbook}}, const bool \&\mbox{\hyperlink{class_place_a2ad43537db39249b8b181659976d5a24}{has\+\_\+\+ISBN\+\_\+number}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::string \mbox{\hyperlink{class_place_a4424a4d56d07a9ab0afea62420c85ea1}{name}}
+\begin{DoxyCompactList}\small\item\em nazwa miejsca \end{DoxyCompactList}\item 
+short int \mbox{\hyperlink{class_place_a58e443ebe034cc2fa596e2f22d8b77e8}{amsl}}
+\begin{DoxyCompactList}\small\item\em wysokosc n.\+p.\+m. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_place_ab78da06946d231ec54caf69c9817a241}{handbook}}
+\begin{DoxyCompactList}\small\item\em numer ISBN, badz nazwa przewodnika \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_place_a2ad43537db39249b8b181659976d5a24}{has\+\_\+\+ISBN\+\_\+number}}
+\begin{DoxyCompactList}\small\item\em posiadanie numeru ISBN \end{DoxyCompactList}\item 
+short int \mbox{\hyperlink{class_place_aa83729fc7e829eb36d13d57e72584876}{difficulty}}
+\begin{DoxyCompactList}\small\item\em trudnosc \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa abstrakcyjna reprezentujaca miejsce. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_place_acc462d657c893b5157e57fc5e314efb2}\label{class_place_acc462d657c893b5157e57fc5e314efb2}} 
+\index{Place@{Place}!Place@{Place}}
+\index{Place@{Place}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{Place()}{Place()}}
+{\footnotesize\ttfamily Place\+::\+Place (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{const short int \&}]{amsl,  }\item[{const std\+::string \&}]{handbook,  }\item[{const bool \&}]{has\+\_\+\+ISBN\+\_\+number }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+Kostruktor klasy \mbox{\hyperlink{class_place}{Place}} 
+\begin{DoxyParams}{Parameters}
+{\em name} & nazwa miejsca \\
+\hline
+{\em amsl} & wysokosc n.\+p.\+m. \\
+\hline
+{\em handbook} & numer ISBN, badz nazwa przewodnika \\
+\hline
+{\em has\+\_\+\+ISBN\+\_\+number} & posiadanie numeru ISBN \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_place_a91e0aae0ba2543ac8b59e3fbdf840b6c}\label{class_place_a91e0aae0ba2543ac8b59e3fbdf840b6c}} 
+\index{Place@{Place}!calculate\_difficulty@{calculate\_difficulty}}
+\index{calculate\_difficulty@{calculate\_difficulty}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{calculate\_difficulty()}{calculate\_difficulty()}}
+{\footnotesize\ttfamily virtual short int Place\+::calculate\+\_\+difficulty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+Metoda czysto wirtualna obliczajaca i zwracajaca atrybut trudnosci \begin{DoxyReturn}{Returns}
+trudnosc miejsca 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_wilderness_ab4b2ce7e5cdea8defe9c36640449fa5e}{Wilderness}}, \mbox{\hyperlink{class_plain_ac717d1c15cbc51f13e7df5f5517f0459}{Plain}}, \mbox{\hyperlink{class_mountains_a6a6042f55d2bf9ca42995d8c17d2e076}{Mountains}}, \mbox{\hyperlink{class_forest_ae31af98b65f9ab496c141b931670e91f}{Forest}}, \mbox{\hyperlink{class_coast_ab5912ae3c87214af3480b3d6e7280e8c}{Coast}}, and \mbox{\hyperlink{class_city_aa505ead09ed4a27e2a4af99782f0b17f}{City}}.
+
+\mbox{\Hypertarget{class_place_ae929f795bbe4247be7a54ebc7a61ca44}\label{class_place_ae929f795bbe4247be7a54ebc7a61ca44}} 
+\index{Place@{Place}!get\_difficulty@{get\_difficulty}}
+\index{get\_difficulty@{get\_difficulty}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{get\_difficulty()}{get\_difficulty()}}
+{\footnotesize\ttfamily short int Place\+::get\+\_\+difficulty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+Metoda zwracajaca trudnosc miejsca \begin{DoxyReturn}{Returns}
+trudnosc miejsca 
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_place_a4c10a883f4d30da80428e4fbedf0eda8}\label{class_place_a4c10a883f4d30da80428e4fbedf0eda8}} 
+\index{Place@{Place}!show@{show}}
+\index{show@{show}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily virtual void Place\+::show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Metoda czysto wirtualna wyswietlajaca atrybuty o obiektu. 
+
+
+
+Implemented in \mbox{\hyperlink{class_wilderness_a365aa7a9bc46a3e58c67f26fcef68522}{Wilderness}}, \mbox{\hyperlink{class_plain_a4108886a58ef4bd3312ac939e8807f49}{Plain}}, \mbox{\hyperlink{class_mountains_a585a9a4ac90fcf4b883e383a625c8b80}{Mountains}}, \mbox{\hyperlink{class_forest_ac4ae61058c7aca730bad7948f0f44bf0}{Forest}}, \mbox{\hyperlink{class_coast_a5caaae754db22c28c2acede62d8aa138}{Coast}}, and \mbox{\hyperlink{class_city_a1a446c908de11266f30a84a0ab22a12c}{City}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_place_a58e443ebe034cc2fa596e2f22d8b77e8}\label{class_place_a58e443ebe034cc2fa596e2f22d8b77e8}} 
+\index{Place@{Place}!amsl@{amsl}}
+\index{amsl@{amsl}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{amsl}{amsl}}
+{\footnotesize\ttfamily short int Place\+::amsl\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+wysokosc n.\+p.\+m. 
+
+\mbox{\Hypertarget{class_place_aa83729fc7e829eb36d13d57e72584876}\label{class_place_aa83729fc7e829eb36d13d57e72584876}} 
+\index{Place@{Place}!difficulty@{difficulty}}
+\index{difficulty@{difficulty}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{difficulty}{difficulty}}
+{\footnotesize\ttfamily short int Place\+::difficulty\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+trudnosc 
+
+\mbox{\Hypertarget{class_place_ab78da06946d231ec54caf69c9817a241}\label{class_place_ab78da06946d231ec54caf69c9817a241}} 
+\index{Place@{Place}!handbook@{handbook}}
+\index{handbook@{handbook}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{handbook}{handbook}}
+{\footnotesize\ttfamily std\+::string Place\+::handbook\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+numer ISBN, badz nazwa przewodnika 
+
+\mbox{\Hypertarget{class_place_a2ad43537db39249b8b181659976d5a24}\label{class_place_a2ad43537db39249b8b181659976d5a24}} 
+\index{Place@{Place}!has\_ISBN\_number@{has\_ISBN\_number}}
+\index{has\_ISBN\_number@{has\_ISBN\_number}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{has\_ISBN\_number}{has\_ISBN\_number}}
+{\footnotesize\ttfamily bool Place\+::has\+\_\+\+ISBN\+\_\+number\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+posiadanie numeru ISBN 
+
+\mbox{\Hypertarget{class_place_a4424a4d56d07a9ab0afea62420c85ea1}\label{class_place_a4424a4d56d07a9ab0afea62420c85ea1}} 
+\index{Place@{Place}!name@{name}}
+\index{name@{name}!Place@{Place}}
+\doxysubsubsection{\texorpdfstring{name}{name}}
+{\footnotesize\ttfamily std\+::string Place\+::name\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+nazwa miejsca 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_place_8h}{Place.\+h}}\end{DoxyCompactItemize}

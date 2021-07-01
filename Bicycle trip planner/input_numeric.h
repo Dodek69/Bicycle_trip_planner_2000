@@ -2,6 +2,10 @@
 #include <iostream>
 #pragma once
 
+
+/// Funkcja sprawdzajaca czy parametr w postaci lancucha znakow jest numerem
+/// @param text lancuch znakow
+/// @return wartosc logiczna 
 inline bool is_number(const std::string& text)
 {
 	if (text.empty())
@@ -13,6 +17,12 @@ inline bool is_number(const std::string& text)
 		text.end(), [](unsigned char c) { return !std::isdigit(c); }) == text.end();
 }
 
+
+/// Funkcja zwracajaca pobrana od uzytkownika liczbe
+/// @param msg wiadomosc dla uzytkownika
+/// @param min wartosc minimalna liczby
+/// @param max wartosc maksymalna liczby
+/// @return liczba pobrana od uzytkownika
 inline short int input_numeric(const std::string& msg, const short int& min, const short int& max) {
 	int number;
 	std::string input;

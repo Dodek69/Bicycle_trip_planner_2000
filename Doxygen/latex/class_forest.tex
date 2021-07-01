@@ -1,0 +1,106 @@
+\hypertarget{class_forest}{}\doxysection{Forest Class Reference}
+\label{class_forest}\index{Forest@{Forest}}
+
+
+Klasa reprezentujaca las.  
+
+
+
+
+{\ttfamily \#include $<$Forest.\+h$>$}
+
+Inheritance diagram for Forest\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_forest}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_forest_ab6d533795adbd423cff8cde679aa4222}{Forest}} (const std\+::string \&\mbox{\hyperlink{class_place_a4424a4d56d07a9ab0afea62420c85ea1}{name}}, const short int \&\mbox{\hyperlink{class_place_a58e443ebe034cc2fa596e2f22d8b77e8}{amsl}}, const std\+::pair$<$ std\+::string, bool $>$ \&\mbox{\hyperlink{class_place_ab78da06946d231ec54caf69c9817a241}{handbook}}, const unsigned short int \&\mbox{\hyperlink{class_forest_a0ed57d9befc95291fcab1ee10fc3b42a}{path\+\_\+quality}})
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual short int \mbox{\hyperlink{class_forest_ae31af98b65f9ab496c141b931670e91f}{calculate\+\_\+difficulty}} ()
+\item 
+virtual void \mbox{\hyperlink{class_forest_ac4ae61058c7aca730bad7948f0f44bf0}{show}} () const
+\begin{DoxyCompactList}\small\item\em Wirtualna metoda wyswietlajaca opis miejsca (atrybuty obiektu) \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+short int \mbox{\hyperlink{class_forest_a0ed57d9befc95291fcab1ee10fc3b42a}{path\+\_\+quality}}
+\begin{DoxyCompactList}\small\item\em jakosc drog \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentujaca las. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_forest_ab6d533795adbd423cff8cde679aa4222}\label{class_forest_ab6d533795adbd423cff8cde679aa4222}} 
+\index{Forest@{Forest}!Forest@{Forest}}
+\index{Forest@{Forest}!Forest@{Forest}}
+\doxysubsubsection{\texorpdfstring{Forest()}{Forest()}}
+{\footnotesize\ttfamily Forest\+::\+Forest (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name,  }\item[{const short int \&}]{amsl,  }\item[{const std\+::pair$<$ std\+::string, bool $>$ \&}]{handbook,  }\item[{const unsigned short int \&}]{path\+\_\+quality }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Kostruktor klasy \mbox{\hyperlink{class_forest}{Forest}} 
+\begin{DoxyParams}{Parameters}
+{\em name} & nazwa lasu \\
+\hline
+{\em amsl} & wysokosc n.\+p.\+m. \\
+\hline
+{\em handbook} & para opisujaca przewodnik \\
+\hline
+{\em path\+\_\+quality} & jakosc drog \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_forest_ae31af98b65f9ab496c141b931670e91f}\label{class_forest_ae31af98b65f9ab496c141b931670e91f}} 
+\index{Forest@{Forest}!calculate\_difficulty@{calculate\_difficulty}}
+\index{calculate\_difficulty@{calculate\_difficulty}!Forest@{Forest}}
+\doxysubsubsection{\texorpdfstring{calculate\_difficulty()}{calculate\_difficulty()}}
+{\footnotesize\ttfamily virtual short int Forest\+::calculate\+\_\+difficulty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+Wirtualna metoda obliczajaca, inicjujaca i zwracajaca trudnosc miejsca, na podstawie wysokosci n.\+p.\+m. i jakosci drog \begin{DoxyReturn}{Returns}
+trudnosc miejsca 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_place_a91e0aae0ba2543ac8b59e3fbdf840b6c}{Place}}.
+
+\mbox{\Hypertarget{class_forest_ac4ae61058c7aca730bad7948f0f44bf0}\label{class_forest_ac4ae61058c7aca730bad7948f0f44bf0}} 
+\index{Forest@{Forest}!show@{show}}
+\index{show@{show}!Forest@{Forest}}
+\doxysubsubsection{\texorpdfstring{show()}{show()}}
+{\footnotesize\ttfamily virtual void Forest\+::show (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}, {\ttfamily [virtual]}}
+
+
+
+Wirtualna metoda wyswietlajaca opis miejsca (atrybuty obiektu) 
+
+
+
+Implements \mbox{\hyperlink{class_place_a4c10a883f4d30da80428e4fbedf0eda8}{Place}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_forest_a0ed57d9befc95291fcab1ee10fc3b42a}\label{class_forest_a0ed57d9befc95291fcab1ee10fc3b42a}} 
+\index{Forest@{Forest}!path\_quality@{path\_quality}}
+\index{path\_quality@{path\_quality}!Forest@{Forest}}
+\doxysubsubsection{\texorpdfstring{path\_quality}{path\_quality}}
+{\footnotesize\ttfamily short int Forest\+::path\+\_\+quality\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+jakosc drog 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_forest_8h}{Forest.\+h}}\end{DoxyCompactItemize}

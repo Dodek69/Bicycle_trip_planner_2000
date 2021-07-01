@@ -1,0 +1,56 @@
+\hypertarget{difficulty__computing_8h}{}\doxysection{difficulty\+\_\+computing.\+h File Reference}
+\label{difficulty__computing_8h}\index{difficulty\_computing.h@{difficulty\_computing.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+short int \mbox{\hyperlink{difficulty__computing_8h_a886627797c4f6f70ee32711cd9fe3cda}{abs}} (const short int \&val)
+\item 
+short int \mbox{\hyperlink{difficulty__computing_8h_afa7cc1ab7fd9997fda10ad103d8d3403}{trim\+\_\+difficulty}} (const short int \&diff)
+\item 
+short int \mbox{\hyperlink{difficulty__computing_8h_a7059728be3f2f5fdf9b15b907e05a7ce}{calculate\+\_\+altitude\+\_\+difficulty}} (const short int \&amsl)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{difficulty__computing_8h_a886627797c4f6f70ee32711cd9fe3cda}\label{difficulty__computing_8h_a886627797c4f6f70ee32711cd9fe3cda}} 
+\index{difficulty\_computing.h@{difficulty\_computing.h}!abs@{abs}}
+\index{abs@{abs}!difficulty\_computing.h@{difficulty\_computing.h}}
+\doxysubsubsection{\texorpdfstring{abs()}{abs()}}
+{\footnotesize\ttfamily short int abs (\begin{DoxyParamCaption}\item[{const short int \&}]{val }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Funkcja zwracajaca wartosc bezwzgledna podanej wartosci calkowitej 
+\begin{DoxyParams}{Parameters}
+{\em val} & liczba calkowita \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+wartosc bezwzgledna argumentu funkcji 
+\end{DoxyReturn}
+\mbox{\Hypertarget{difficulty__computing_8h_a7059728be3f2f5fdf9b15b907e05a7ce}\label{difficulty__computing_8h_a7059728be3f2f5fdf9b15b907e05a7ce}} 
+\index{difficulty\_computing.h@{difficulty\_computing.h}!calculate\_altitude\_difficulty@{calculate\_altitude\_difficulty}}
+\index{calculate\_altitude\_difficulty@{calculate\_altitude\_difficulty}!difficulty\_computing.h@{difficulty\_computing.h}}
+\doxysubsubsection{\texorpdfstring{calculate\_altitude\_difficulty()}{calculate\_altitude\_difficulty()}}
+{\footnotesize\ttfamily short int calculate\+\_\+altitude\+\_\+difficulty (\begin{DoxyParamCaption}\item[{const short int \&}]{amsl }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Funkcja obliczajaca trudnosc ze wzgledu na wysokosc n.\+p.\+m. miejsca 
+\begin{DoxyParams}{Parameters}
+{\em amsl} & wysokosc n.\+p.\+m. miejsca \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+trudnosc ze wzgledu na wysokosc n.\+p.\+m. miejsca 
+\end{DoxyReturn}
+\mbox{\Hypertarget{difficulty__computing_8h_afa7cc1ab7fd9997fda10ad103d8d3403}\label{difficulty__computing_8h_afa7cc1ab7fd9997fda10ad103d8d3403}} 
+\index{difficulty\_computing.h@{difficulty\_computing.h}!trim\_difficulty@{trim\_difficulty}}
+\index{trim\_difficulty@{trim\_difficulty}!difficulty\_computing.h@{difficulty\_computing.h}}
+\doxysubsubsection{\texorpdfstring{trim\_difficulty()}{trim\_difficulty()}}
+{\footnotesize\ttfamily short int trim\+\_\+difficulty (\begin{DoxyParamCaption}\item[{const short int \&}]{diff }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+Funkcja normalizujaca zakres trudnosci 
+\begin{DoxyParams}{Parameters}
+{\em diff} & trudnosc \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+znormalizowana wartosc trudnosci (1-\/100) 
+\end{DoxyReturn}
