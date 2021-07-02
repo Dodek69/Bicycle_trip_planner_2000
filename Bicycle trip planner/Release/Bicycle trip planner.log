@@ -1,26 +1,8 @@
 ﻿  add_place.cpp
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\add_place.cpp(55,26): warning C4267: "argument": konwersja z "size_t" do "unsigned short", możliwa utrata danych
-  annual_report.cpp
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\annual_report.cpp(10,48): warning C4267: "inicjowanie": konwersja z "size_t" do "unsigned short", możliwa utrata danych
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\annual_report.cpp(10,76): warning C4267: "inicjowanie": konwersja z "size_t" do "unsigned short", możliwa utrata danych
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\annual_report.cpp(63,33): warning C4267: "inicjowanie": konwersja z "size_t" do "short", możliwa utrata danych
-  delete_place.cpp
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\delete_place.cpp(16,51): warning C4267: "argument": konwersja z "size_t" do "const short", możliwa utrata danych
-  main.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\utility(249,55): warning C4267: "inicjowanie": konwersja z "size_t" do "_Ty1", możliwa utrata danych
-          with
-          [
-              _Ty1=short
-          ]
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.h(19): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<short,short>::pair<unsigned int,short,0>(std::pair<unsigned int,short> &&) noexcept” funkcji szablon
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.h(19): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<short,short>::pair<unsigned int,short,0>(std::pair<unsigned int,short> &&) noexcept” funkcji szablon
-  plan.cpp
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.cpp(25,37): error C2664: „void add_place_to_route(std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>> &,std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>> &)”: nie można dokonać konwersji argumentu 1 z „const std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>>” do „std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>> &”
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.cpp(25,24): message : Konwersja traci kwalifikatory
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.h(39,6): message : zobacz deklarację „add_place_to_route”
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.cpp(28,42): error C2664: „void remove_place_from_route(std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>> &,std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>> &)”: nie można dokonać konwersji argumentu 1 z „const std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>>” do „std::map<unsigned short,Place *,std::less<unsigned short>,std::allocator<std::pair<const unsigned short,Place *>>> &”
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.cpp(28,29): message : Konwersja traci kwalifikatory
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.h(41,6): message : zobacz deklarację „remove_place_from_route”
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.cpp(51,51): warning C4267: "argument": konwersja z "size_t" do "const short", możliwa utrata danych
-C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle trip planner\Bicycle trip planner\plan.cpp(68,50): warning C4267: "argument": konwersja z "size_t" do "const short", możliwa utrata danych
-  show_places.cpp
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\add_place.cpp(55,26): warning C4267: "argument": konwersja z "size_t" do "unsigned short", możliwa utrata danych
+  Trwa generowanie kodu
+  0 of 520 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  Bicycle trip planner.vcxproj -> C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Release\Bicycle trip planner.exe

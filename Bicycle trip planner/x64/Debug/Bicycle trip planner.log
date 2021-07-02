@@ -1,0 +1,29 @@
+﻿  add_place.cpp
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\add_place.cpp(55,26): warning C4267: "argument": konwersja z "size_t" do "unsigned short", możliwa utrata danych
+  annual_report.cpp
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\annual_report.cpp(10,48): warning C4267: "inicjowanie": konwersja z "size_t" do "unsigned short", możliwa utrata danych
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\annual_report.cpp(10,76): warning C4267: "inicjowanie": konwersja z "size_t" do "unsigned short", możliwa utrata danych
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\annual_report.cpp(56,37): warning C4267: "inicjowanie": konwersja z "size_t" do "short", możliwa utrata danych
+  delete_place.cpp
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\delete_place.cpp(15,51): warning C4267: "argument": konwersja z "size_t" do "const short", możliwa utrata danych
+  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\utility(249,55): warning C4267: "inicjowanie": konwersja z "size_t" do "_Ty1", możliwa utrata danych
+          with
+          [
+              _Ty1=short
+          ]
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\plan.h(23): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<short,short>::pair<unsigned __int64,short,0>(std::pair<unsigned __int64,short> &&) noexcept” funkcji szablon
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\plan.h(23): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<short,short>::pair<unsigned __int64,short,0>(std::pair<unsigned __int64,short> &&) noexcept” funkcji szablon
+  plan.cpp
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\plan.cpp(51,51): warning C4267: "argument": konwersja z "size_t" do "const short", możliwa utrata danych
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\plan.cpp(67,50): warning C4267: "argument": konwersja z "size_t" do "const short", możliwa utrata danych
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30037\include\utility(249,55): warning C4267: "inicjowanie": konwersja z "size_t" do "_Ty1", możliwa utrata danych
+          with
+          [
+              _Ty1=short
+          ]
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\plan.h(23): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<short,short>::pair<unsigned __int64,short,0>(std::pair<unsigned __int64,short> &&) noexcept” funkcji szablon
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\plan.h(23): message : zobacz odwołanie do kompilowanego tworzenia wystąpienia „std::pair<short,short>::pair<unsigned __int64,short,0>(std::pair<unsigned __int64,short> &&) noexcept” funkcji szablon
+  show_places.cpp
+  Generowanie kodu...
+  Bicycle trip planner.vcxproj -> C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\x64\Debug\Bicycle trip planner.exe

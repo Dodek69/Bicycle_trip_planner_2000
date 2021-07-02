@@ -1,0 +1,8 @@
+﻿  add_place.cpp
+C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\Bicycle trip planner\add_place.cpp(55,26): warning C4267: "argument": konwersja z "size_t" do "unsigned short", możliwa utrata danych
+  Trwa generowanie kodu
+  0 of 520 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  Bicycle trip planner.vcxproj -> C:\Users\Dodek\OneDrive\Repozytoria\C++\Bicycle_trip_planner_2000\x64\Release\Bicycle trip planner.exe

@@ -167,6 +167,9 @@
     <ClCompile Include="plan.cpp" />
     <ClCompile Include="show_places.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="tours" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

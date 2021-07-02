@@ -2,7 +2,7 @@
 #pragma once
 
 
-/// Funkcja zwracajaca odpowiedni tekst, w zaleznosci od wartosci logicznej parametru, okreslajacego czy przewodnik opsiujacy miejsce ma numer ISBN
+/// Funkcja zwracajaca odpowiedni tekst, w zaleznosci od wartosci logicznej parametru, okreslajacego czy przewodnik opisujacy miejsce ma numer ISBN
 /// @param has_ISBN_number wartosc logiczna okreslajaca, czy przewodnik opsiujacy miejsce ma numer ISBN
 /// @return tekst 
 inline std::string show_handbook(const bool& has_ISBN_number) {
